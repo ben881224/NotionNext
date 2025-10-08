@@ -15,7 +15,7 @@ const BLOG = {
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'BEN', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '基层传道者', // 作者简介
+  BIO: process.env.NEXT_PUBLIC_BIO || '吾日三省吾身', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://xb.lookinside.top', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '灵修,讲道', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
@@ -52,6 +52,8 @@ const BLOG = {
   // 自定义菜单
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || true, // 支持Menu类型的菜单，替代了3.12版本前的Page类型
 
+
+    API_BASE_URL: process.env.API_BASE_URL || 'https://www.ben1224.notion.site/api/v3', // API默认请求地址 ,可配置成自己的 https://<xxxx>.notion.site/api/v3
 
 
   // 文章列表相关设置

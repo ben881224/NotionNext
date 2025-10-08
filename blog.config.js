@@ -66,6 +66,9 @@ const BLOG = {
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
     'Hi，我是许彬,欢迎来到我的灵修岛🎉',
 
+    API_BASE_URL: process.env.API_BASE_URL || 'https://www.notion.so/api/v3', // API默认请求地址 ,可配置成自己的 https://<xxxx>.notion.site/api/v3
+
+
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
 }
